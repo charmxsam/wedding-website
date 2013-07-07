@@ -13,3 +13,82 @@
 @import "base";
 @import "layout";
 @import "components";
+
+body {
+    margin: 0px;
+    background: rgba(252, 250, 242, 0.58);
+    margin-top: -22px;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+.l-header {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    background: rgb(177, 49, 49);
+    max-width: 100%;
+    height: 100px;
+    margin-bottom: 0px;
+    padding-left: 0px !important;
+}
+
+.l-branding {
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+
+    .site-name {
+        padding-top: 25px;
+        font-family: 'Lato';
+        font-weight: 100;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: black;
+        }
+    }
+}
+
+.l-region--navigation {
+    //background: rgb(49, 49, 138);
+    height: 30px;
+    margin-top: 35px;
+
+    #block-system-main-menu {
+        ul {
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+            display: block;
+            padding-left: 0px;
+            font-family: 'Open Sans';
+            font-weight: 300;
+        }
+
+        li {
+            list-style: none;
+            display: inline;
+            margin-left: 10px;
+        }
+
+        a, a:visited {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.l-main {
+    margin-top: 30px;
+}
