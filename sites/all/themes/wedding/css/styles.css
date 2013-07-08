@@ -95,6 +95,10 @@ p {
   font-family: 'Open Sans';
   font-weight: 300; }
 
+h1 {
+  font-family: 'Lato';
+  font-weight: normal; }
+
 .l-header {
   margin-left: 0px;
   margin-right: 0px;
@@ -140,4 +144,5 @@ p {
     text-decoration: underline; }
 
 .l-main {
-  margin-top: 30px; }
+  margin-top: 30px;
+  width: 80%; }
