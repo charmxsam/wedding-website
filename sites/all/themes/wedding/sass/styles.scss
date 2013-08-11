@@ -34,13 +34,9 @@ h1 {
     margin-left: 0px;
     margin-right: 0px;
     width: 100%;
-    background: rgb(177, 49, 49);
-    background-image: url('../images/stars.png');
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: 100px;
     margin-bottom: 0px;
     padding-left: 0px !important;
+    height: 150px !important;
 }
 
 .l-branding {
@@ -48,6 +44,11 @@ h1 {
     float: none;
     text-align: center;
     width: 100%;
+    background: rgb(177, 49, 49);
+    background-image: url('../images/stars.png');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 100px;
 
     .site-name {
         padding-top: 20px;
@@ -67,9 +68,7 @@ h1 {
 }
 
 .l-region--navigation {
-    //background: rgb(49, 49, 138);
-    height: 30px;
-    margin-top: -16px;
+  margin-top: 10px;
 
     #block-system-main-menu {
         ul {
@@ -101,6 +100,5 @@ h1 {
 }
 
 .l-main {
-    margin-top: 70px;
     width: 80%;
 }

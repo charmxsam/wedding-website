@@ -106,19 +106,20 @@ h1 {
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
-  background: #b13131;
-  background-image: url("../images/stars.png");
-  background-repeat: no-repeat;
-  max-width: 100%;
-  height: 100px;
   margin-bottom: 0px;
-  padding-left: 0px !important; }
+  padding-left: 0px !important;
+  height: 150px !important; }
 
 .l-branding {
   margin: 0 auto;
   float: none;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  background: #b13131;
+  background-image: url("../images/stars.png");
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 100px; }
   .l-branding .site-name {
     padding-top: 20px;
     font-weight: 100;
@@ -131,8 +132,7 @@ h1 {
       color: #f0f0f0; }
 
 .l-region--navigation {
-  height: 30px;
-  margin-top: -16px; }
+  margin-top: 10px; }
   .l-region--navigation #block-system-main-menu ul {
     width: 100%;
     margin: 0 auto;
@@ -153,5 +153,4 @@ h1 {
     text-decoration: underline; }
 
 .l-main {
-  margin-top: 70px;
   width: 80%; }
