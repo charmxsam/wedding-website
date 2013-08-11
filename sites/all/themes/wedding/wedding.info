@@ -6,6 +6,7 @@ engine = phptemplate
 core = 7.x
 stylesheets[all][] = css/reset.css
 stylesheets[all][] = css/styles.css
+stylesheets[all][] = fonts/neoretrofill_regular_macroman/stylesheet.css
 regions[header] = Header
 regions[navigation] = Navigation
 regions[highlighted] = Highlighted

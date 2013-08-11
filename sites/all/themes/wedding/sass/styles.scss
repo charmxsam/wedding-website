@@ -17,16 +17,16 @@
 body {
     margin: 0px;
     background: rgba(252, 250, 242, 0.58);
-    margin-top: -22px;
+    margin-top: -43px;
+    font-family: 'Josefin Sans'; 
 }
 
 p {
-    font-family: 'Open Sans';
     font-weight: 300;
+    font-size: 1.4em;
 }
 
 h1 {
-    font-family: 'Lato';
     font-weight: normal;
 }
 
@@ -35,6 +35,8 @@ h1 {
     margin-right: 0px;
     width: 100%;
     background: rgb(177, 49, 49);
+    background-image: url('../images/stars.png');
+    background-repeat: no-repeat;
     max-width: 100%;
     height: 100px;
     margin-bottom: 0px;
@@ -45,19 +47,21 @@ h1 {
     margin: 0 auto;
     float: none;
     text-align: center;
+    width: 100%;
 
     .site-name {
-        padding-top: 25px;
-        font-family: 'Lato';
+        padding-top: 20px;
         font-weight: 100;
+        font-family: 'neoretrofillregular';
+        font-size: 4em;
 
         a {
-            color: white;
+            color: rgb(240, 240, 240);
             text-decoration: none;
         }
 
         a:hover {
-            color: black;
+            color: rgb(240, 240, 240);
         }
     }
 }
@@ -65,17 +69,18 @@ h1 {
 .l-region--navigation {
     //background: rgb(49, 49, 138);
     height: 30px;
-    margin-top: 35px;
+    margin-top: -16px;
 
     #block-system-main-menu {
         ul {
-            width: 50%;
+            width: 100%;
             margin: 0 auto;
             text-align: center;
             display: block;
             padding-left: 0px;
-            font-family: 'Open Sans';
-            font-weight: 300;
+            font-family: 'Josefin Sans'; 
+            font-weight: 700;
+            font-size: 1.5em;
         }
 
         li {
@@ -86,6 +91,7 @@ h1 {
 
         a, a:visited {
             text-decoration: none;
+            color: #3D56B9;
         }
 
         a:hover {
@@ -95,6 +101,6 @@ h1 {
 }
 
 .l-main {
-    margin-top: 30px;
+    margin-top: 70px;
     width: 80%;
 }

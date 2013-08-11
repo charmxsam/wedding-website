@@ -47,6 +47,9 @@
  * components should not be placed here and should instead be kept with the
  * relevant SCSS for that component.
  ******************************************************************************/
+.l-branding {
+  width: 50%; }
+
 /*******************************************************************************
  * _components.scss
  *
@@ -89,14 +92,14 @@
 body {
   margin: 0px;
   background: rgba(252, 250, 242, 0.58);
-  margin-top: -22px; }
+  margin-top: -43px;
+  font-family: 'Josefin Sans'; }
 
 p {
-  font-family: 'Open Sans';
-  font-weight: 300; }
+  font-weight: 300;
+  font-size: 1.4em; }
 
 h1 {
-  font-family: 'Lato';
   font-weight: normal; }
 
 .l-header {
@@ -104,6 +107,8 @@ h1 {
   margin-right: 0px;
   width: 100%;
   background: #b13131;
+  background-image: url("../images/stars.png");
+  background-repeat: no-repeat;
   max-width: 100%;
   height: 100px;
   margin-bottom: 0px;
@@ -112,37 +117,41 @@ h1 {
 .l-branding {
   margin: 0 auto;
   float: none;
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
   .l-branding .site-name {
-    padding-top: 25px;
-    font-family: 'Lato';
-    font-weight: 100; }
+    padding-top: 20px;
+    font-weight: 100;
+    font-family: 'neoretrofillregular';
+    font-size: 4em; }
     .l-branding .site-name a {
-      color: white;
+      color: #f0f0f0;
       text-decoration: none; }
     .l-branding .site-name a:hover {
-      color: black; }
+      color: #f0f0f0; }
 
 .l-region--navigation {
   height: 30px;
-  margin-top: 35px; }
+  margin-top: -16px; }
   .l-region--navigation #block-system-main-menu ul {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     display: block;
     padding-left: 0px;
-    font-family: 'Open Sans';
-    font-weight: 300; }
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 1.5em; }
   .l-region--navigation #block-system-main-menu li {
     list-style: none;
     display: inline;
     margin-left: 10px; }
   .l-region--navigation #block-system-main-menu a, .l-region--navigation #block-system-main-menu a:visited {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #3D56B9; }
   .l-region--navigation #block-system-main-menu a:hover {
     text-decoration: underline; }
 
 .l-main {
-  margin-top: 30px;
+  margin-top: 70px;
   width: 80%; }
