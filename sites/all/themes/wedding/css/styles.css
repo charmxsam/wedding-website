@@ -108,7 +108,8 @@ h1 {
   width: 100%;
   margin-bottom: 0px;
   padding-left: 0px !important;
-  height: 150px !important; }
+  height: 150px !important;
+  max-width: 100%; }
 
 .l-branding {
   margin: 0 auto;
@@ -145,7 +146,7 @@ h1 {
   .l-region--navigation #block-system-main-menu li {
     list-style: none;
     display: inline;
-    margin-left: 10px; }
+    margin-left: 25px; }
   .l-region--navigation #block-system-main-menu a, .l-region--navigation #block-system-main-menu a:visited {
     text-decoration: none;
     color: #3D56B9; }
@@ -154,3 +155,27 @@ h1 {
 
 .l-main {
   width: 80%; }
+
+.field--name-field-content-section {
+  font-family: 'neoretrofillregular';
+  font-size: 2em; }
+
+.homepage-main .l-main {
+  margin-top: 100px; }
+
+.field--name-field-content-section p {
+  margin-top: 38px;
+  text-align: right;
+  padding-right: 50px; }
+
+/* Utilities */
+.pull-left {
+  float: left;
+  display: block; }
+
+.pull-right {
+  float: right;
+  display: block; }
+
+.home-pic {
+  border-radius: 4px; }
