@@ -179,3 +179,27 @@ h1 {
 
 .home-pic {
   border-radius: 4px; }
+
+@media (max-width: 900px) {
+  .l-branding {
+    background-image: none; }
+
+  .homepage-main .l-main {
+    margin-top: 0px; }
+    .homepage-main .l-main .panel-col-first, .homepage-main .l-main .panel-col-last {
+      width: 100%;
+      float: none; }
+    .homepage-main .l-main .field--name-field-content-section p {
+      margin-top: 38px;
+      text-align: center;
+      padding-right: 0px; }
+    .homepage-main .l-main .field--name-field-home-image img {
+      display: block;
+      margin: 0 auto; } }
+@media (max-width: 730px) {
+  .field--name-field-home-image img {
+    width: 95%;
+    height: auto; } }
+@media (max-width: 598px) {
+  .l-branding {
+    height: 150px; } }
