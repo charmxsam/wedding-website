@@ -108,7 +108,6 @@ h1 {
   width: 100%;
   margin-bottom: 0px;
   padding-left: 0px !important;
-  height: 150px !important;
   max-width: 100%; }
 
 .l-branding {
@@ -161,7 +160,7 @@ h1 {
   font-size: 2em; }
 
 .homepage-main .l-main {
-  margin-top: 100px; }
+  margin-top: 50px; }
 
 .field--name-field-content-section p {
   margin-top: 38px;
@@ -180,9 +179,28 @@ h1 {
 .home-pic {
   border-radius: 4px; }
 
+#block-menu-menu-mobile-menu {
+  display: none;
+  font-family: 'Josefin Sans';
+  font-weight: 700;
+  font-size: 1.5em; }
+  #block-menu-menu-mobile-menu li {
+    list-style: none; }
+  #block-menu-menu-mobile-menu a, #block-menu-menu-mobile-menu a:visited {
+    text-decoration: none;
+    color: #3D56B9; }
+  #block-menu-menu-mobile-menu a:hover {
+    text-decoration: underline; }
+
 @media (max-width: 900px) {
   .l-branding {
     background-image: none; }
+
+  #block-system-main-menu {
+    display: none; }
+
+  #block-menu-menu-mobile-menu {
+    display: block; }
 
   .homepage-main .l-main {
     margin-top: 0px; }

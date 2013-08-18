@@ -1,7 +1,35 @@
+#block-menu-menu-mobile-menu {
+  display: none;
+  font-family: 'Josefin Sans'; 
+  font-weight: 700;
+  font-size: 1.5em;
+
+  li {
+    list-style: none;
+  }
+
+  a, a:visited {
+      text-decoration: none;
+      color: #3D56B9;
+  }
+
+  a:hover {
+      text-decoration: underline;
+  }
+}
+
 @media (max-width: 900px) {
 
   .l-branding {
     background-image: none;
+  }
+
+  #block-system-main-menu {
+    display: none;
+  }
+
+  #block-menu-menu-mobile-menu {
+    display: block;
   }
 
   .homepage-main .l-main {
