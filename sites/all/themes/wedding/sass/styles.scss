@@ -48,13 +48,14 @@ h1 {
     background-image: url('../images/stars.png');
     background-repeat: no-repeat;
     max-width: 100%;
-    height: 100px;
+    min-height: 100px;
 
     .site-name {
         padding-top: 20px;
         font-weight: 100;
         font-family: 'neoretrofillregular';
         font-size: 4em;
+        line-height: 90%;
 
         a {
             color: rgb(240, 240, 240);

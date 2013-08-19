@@ -18,11 +18,15 @@
   }
 }
 
-@media (max-width: 900px) {
+@media(max-width: 1040px) {
 
   .l-branding {
     background-image: none;
   }
+}
+
+
+@media (max-width: 900px) {
 
   #block-system-main-menu {
     display: none;
@@ -64,10 +68,5 @@
 
 }
 
-@media (max-width: 598px) {
-  .l-branding {
-    height: 150px;
-  }
-}
 
 

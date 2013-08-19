@@ -119,12 +119,13 @@ h1 {
   background-image: url("../images/stars.png");
   background-repeat: no-repeat;
   max-width: 100%;
-  height: 100px; }
+  min-height: 100px; }
   .l-branding .site-name {
     padding-top: 20px;
     font-weight: 100;
     font-family: 'neoretrofillregular';
-    font-size: 4em; }
+    font-size: 4em;
+    line-height: 90%; }
     .l-branding .site-name a {
       color: #f0f0f0;
       text-decoration: none; }
@@ -192,10 +193,10 @@ h1 {
   #block-menu-menu-mobile-menu a:hover {
     text-decoration: underline; }
 
-@media (max-width: 900px) {
+@media (max-width: 1040px) {
   .l-branding {
-    background-image: none; }
-
+    background-image: none; } }
+@media (max-width: 900px) {
   #block-system-main-menu {
     display: none; }
 
@@ -218,6 +219,3 @@ h1 {
   .field--name-field-home-image img {
     width: 95%;
     height: auto; } }
-@media (max-width: 598px) {
-  .l-branding {
-    height: 150px; } }
