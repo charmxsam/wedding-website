@@ -30,6 +30,19 @@ h1 {
     font-weight: normal;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.field--name-body img {
+  border: 6px solid white;
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.18);
+  margin: 10px;
+}
+
 .l-header {
     margin-left: 0px;
     margin-right: 0px;
