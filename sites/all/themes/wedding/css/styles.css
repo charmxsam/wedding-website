@@ -160,9 +160,12 @@ img {
     margin-left: 25px; }
   .l-region--navigation #block-system-main-menu a, .l-region--navigation #block-system-main-menu a:visited {
     text-decoration: none;
-    color: #3D56B9; }
+    color: #3D56B9;
+    -moz-transition: color 0.1s linear;
+    -webkit-transition: color 0.1s linear;
+    transition: color 0.1s linear; }
   .l-region--navigation #block-system-main-menu a:hover {
-    text-decoration: underline; }
+    color: #b13131; }
 
 .l-main {
   width: 80%; }
