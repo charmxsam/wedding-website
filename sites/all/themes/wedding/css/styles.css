@@ -233,3 +233,8 @@ img {
   .field--name-field-home-image img {
     width: 95%;
     height: auto; } }
+@media (max-width: 597px) {
+  img {
+    float: none !important;
+    margin: 0 auto !important;
+    display: block; } }

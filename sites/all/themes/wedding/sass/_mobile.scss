@@ -72,5 +72,13 @@
 
 }
 
+@media (max-width: 597px) {
+  img {
+    float: none !important;
+    margin: 0 auto !important;
+    display: block;
+  }
+}
+
 
 
